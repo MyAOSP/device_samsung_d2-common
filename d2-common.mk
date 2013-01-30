@@ -106,10 +106,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
     media.aac_51_output_enabled=true
 
-# Workaround for MDP underrun issue with 4-layer composition
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.mdpcomp.maxlayer=3
-
 # common msm8960
 $(call inherit-product, device/samsung/msm8960-common/msm8960.mk)
 
