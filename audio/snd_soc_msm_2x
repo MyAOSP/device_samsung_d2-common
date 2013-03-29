@@ -4801,13 +4801,13 @@ EndSection
 SectionModifier
     Name "Capture MusicBT SCO Tx"
 
-    EnableSequence
-        'MultiMedia1 Mixer AUX_PCM_UL_TX':1:1
-    EndSequence
+	EnableSequence
+		'MultiMedia1 Mixer AUX_PCM_UL_TX':1:1
+	EndSequence
 
-    DisableSequence
-        'MultiMedia1 Mixer AUX_PCM_UL_TX':1:0
-    EndSequence
+	DisableSequence
+		'MultiMedia1 Mixer AUX_PCM_UL_TX':1:0
+	EndSequence
 
     # ALSA PCMs
     CapturePCM 0
