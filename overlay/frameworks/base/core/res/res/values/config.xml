@@ -301,10 +301,8 @@
     <!-- Indicate whether the SD card is accessible without removing the battery. -->
     <bool name="config_batterySdCardAccessibility">true</bool>
 
-    <bool name="config_enableWifiDisplay">true</bool>
-
-    <!-- Flag indicating if the speed up audio on mt call code should be executed -->
-    <bool name="config_speed_up_audio_on_mt_calls">true</bool>
+    <!-- Disable the home key unlock setting -->
+    <bool name="config_disableHomeUnlockSetting">false</bool>
 
     <!-- Hardware 'face' keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -318,6 +316,11 @@
          config to 7. -->
     <integer name="config_deviceHardwareKeys">7</integer>
 
+    <bool name="config_enableWifiDisplay">true</bool>
+
+    <!-- Flag indicating if the speed up audio on mt call code should be executed -->
+    <bool name="config_speed_up_audio_on_mt_calls">true</bool>
+
     <!-- this sets the scan codes for the menu, home and back buttons for use in disabling
             buttons.  Since not all hardware buttons results in a hardKey being returned we
             have to use the scan code instead -->
@@ -325,4 +328,6 @@
     <integer name="config_deviceHardwareHomeScanCode">172</integer>
     <integer name="config_deviceHardwareBackScanCode">158</integer>
 
+    <!-- Panel auto brightness value -->
+    <integer name="config_panelAutoBrightnessValue">1</integer>
 </resources>
